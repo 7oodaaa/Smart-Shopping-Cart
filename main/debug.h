@@ -2,8 +2,6 @@
    @file debug.h
    @brief Debugging utilities for serial output
    @author Mahmoud Yasser
-   @version V1.2
-   @date 2025-02-09
 */
 
 #ifndef DEBUG_H

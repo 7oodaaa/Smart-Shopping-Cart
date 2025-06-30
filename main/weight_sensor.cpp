@@ -1,3 +1,8 @@
+/*!
+   @file weight_sensor.cpp
+   @brief HX711 weight sensor implementation
+   @author Mahmoud Yasser
+*/
 #include "APIHandler.h"
 #include "weight_sensor.h"
 

@@ -1,4 +1,9 @@
-// WiFiManager.cpp
+/*!
+   @file WiFiManager.cpp
+   @brief WiFi connection management implementation
+   @author Mahmoud Yasser
+*/
+
 #include "WiFiManager.h"
 
 void connectToWiFi(const char* ssid, const char* password) {

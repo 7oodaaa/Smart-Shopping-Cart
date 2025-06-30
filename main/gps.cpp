@@ -1,3 +1,9 @@
+/*!
+   @file gps.cpp
+   @brief GPS module implementation for location data
+   @author Mahmoud Yasser
+*/
+
 #include "debug.h"
 #include "WebSocketHandler.h"
 #include "gps.h"

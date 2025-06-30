@@ -1,3 +1,8 @@
+/*!
+   @file APIHandler.h
+   @brief API communication interface for smart cart
+   @author Mahmoud Yasser
+*/
 #ifndef API_HANDLER_H
 #define API_HANDLER_H
 

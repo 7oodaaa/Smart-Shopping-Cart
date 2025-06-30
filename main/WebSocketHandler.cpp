@@ -1,3 +1,8 @@
+/*!
+   @file WebSocketHandler.cpp
+   @brief WebSocket communication implementation for smart cart
+   @author Mahmoud Yasser
+*/
 #include "GM65_scanner.h"
 #include "WebSocketHandler.h"
 #include <WebSocketsClient.h>

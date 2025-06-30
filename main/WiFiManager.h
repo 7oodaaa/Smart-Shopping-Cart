@@ -1,3 +1,8 @@
+/*!
+   @file WiFiManager.h
+   @brief WiFi connection management interface
+   @author Mahmoud Yasser
+*/
 #ifndef WIFI_MANAGER_H
 #define WIFI_MANAGER_H
 #include <WiFi.h>

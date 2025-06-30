@@ -1,3 +1,8 @@
+/*!
+   @file WebSocketHandler.h
+   @brief WebSocket communication interface for smart cart
+   @author Mahmoud Yasser
+*/
 #ifndef WEBSOCKET_HANDLER_H
 #define WEBSOCKET_HANDLER_H
 

@@ -2,8 +2,6 @@
    @file GM65_scanner.h
    @brief GM65 barcode reader
    @author Mahmoud Yasser
-   @version  V1.2
-   @date  2025-02-09
 */
 #ifndef GM65_SCANNER_H
 #define GM65_SCANNER_H
@@ -17,7 +15,10 @@
 #define GM65_ON true
 #define GM65_OFF false
 #define BUFFER_SIZE 128  // Adjust based on expected barcode length
-
+// UART2 pins for GM65 barcode scanner
+#define RX2 16  // GPIO16 for RX
+#define TX2 17  // GPIO17 for TX
+#define Gm65_BAUD 115200
 // Command arrays
 extern const char set_default[9];          // Factory settings
 extern const char set_serial_output[9];    // Set serial output

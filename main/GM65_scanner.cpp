@@ -2,8 +2,6 @@
    @file GM65_scanner.cpp
    @brief GM65 barcode reader
    @author Mahmoud Yasser
-   @version  V1.2
-   @date  2025-02-09
 */
 
 #include "GM65_scanner.h"

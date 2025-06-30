@@ -1,3 +1,8 @@
+/*!
+   @file gps.h
+   @brief GPS module interface for location data
+   @author Mahmoud Yasser
+*/
 #ifndef GPSMODULE_H
 #define GPSMODULE_H
 

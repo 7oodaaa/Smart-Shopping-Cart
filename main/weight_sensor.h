@@ -1,3 +1,8 @@
+/*!
+   @file weight_sensor.h
+   @brief HX711 weight sensor interface
+   @author Mahmoud Yasser
+*/
 #ifndef WEIGHT_SENSOR_H
 #define WEIGHT_SENSOR_H
 

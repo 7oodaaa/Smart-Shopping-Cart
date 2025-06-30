@@ -1,3 +1,8 @@
+/*!
+   @file main.ino
+   @brief Main application logic for smart cart system
+   @author Mahmoud Yasser
+*/
 #include "debug.h"
 #include "WebSocketHandler.h"
 #include "APIHandler.h"
@@ -8,10 +13,6 @@
 // WiFi credentials
 const char* ssid = "Mahmoud";
 const char* password = "Mahmoud2030@#";
-
-// UART2 pins for GM65 barcode scanner
-#define RX2 16  // GPIO16 for RX
-#define TX2 17  // GPIO17 for TX
 
 // Global variables
 extern Stream* scanner;  // Declared in GM65_scanner.cpp
@@ -24,7 +25,7 @@ void setup() {
 #endif
 
   // Initialize Serial2 for GM65 scanner
-  Serial2.begin(115200, SERIAL_8N1, RX2, TX2);
+  Serial2.begin(Gm65_BAUD, SERIAL_8N1, RX2, TX2);
   scanner = &Serial2;  // Set GM65 serial
   debugPrintln("Serial2 started at 115200 baud rate");
 

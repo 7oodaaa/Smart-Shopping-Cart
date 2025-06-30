@@ -1,4 +1,8 @@
-//#include "weight_sensor.h"
+/*!
+   @file APIHandler.cpp
+   @brief API communication implementation for smart cart
+   @author Mahmoud Yasser
+*/
 #include "APIHandler.h"
 const char* root_ca =
   "-----BEGIN CERTIFICATE-----\n"
